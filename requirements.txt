@@ -2,7 +2,7 @@ tensorflow==2.7.0
 pandas==2.0.0
 numpy==1.24.2
 plotly==5.1.0
-streamlit==0.83.0
+streamlit==1.16.0
 matplotlib==3.3.2
 keras_nightly==2.5.0.dev2021032900
 scikit_learn==0.24.2
