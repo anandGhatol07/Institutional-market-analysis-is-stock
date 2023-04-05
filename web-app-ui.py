@@ -39,7 +39,7 @@ n_steps = 30
 def choose_dataset(stocks, stocks_data, allmodels):
     st.sidebar.subheader('Select the bank')
     stock = st.sidebar.selectbox( "", stocks_data, key='1' )
-    check = st.sidebar.checkbox("Hide", value=True, key='1')
+    check = st.sidebar.checkbox("Hide", value=True, key='2')
     
     #st.sidebar.write(check)
     for itr in stocks_data:
@@ -51,10 +51,10 @@ def choose_dataset(stocks, stocks_data, allmodels):
 
 def about_section():
     st.sidebar.subheader('Made By:')
-    st.sidebar.markdown("Mrinab Dey")
-    st.sidebar.markdown('[LinkedIn](https://www.linkedin.com/in/mrinabdey/) [Github](https://github.com/mrinabdey)', unsafe_allow_html=True)
-    st.sidebar.markdown("Pankaj Kumar Sah")
-    st.sidebar.markdown('[LinkedIn](https://www.linkedin.com/in/pankaj-sah-b7aa39186/) [Github](https://github.com/52punk)', unsafe_allow_html=True)
+    st.sidebar.markdown("Anand Ghalot")
+    #st.sidebar.markdown('[LinkedIn](https://www.linkedin.com/in/mrinabdey/) [Github](https://github.com/mrinabdey)', unsafe_allow_html=True)
+    #st.sidebar.markdown("Pankaj Kumar Sah")
+    #st.sidebar.markdown('[LinkedIn](https://www.linkedin.com/in/pankaj-sah-b7aa39186/) [Github](https://github.com/52punk)', unsafe_allow_html=True)
     
 
 def create_dataset(dataset, time_step=1):
