@@ -52,6 +52,9 @@ def choose_dataset(stocks, stocks_data, allmodels):
 def about_section():
     st.sidebar.subheader('Made By:')
     st.sidebar.markdown("Anand Ghalot")
+    st.sidebar.markdown("Samyak Ajmera")
+    st.sidebar.markdown("Himanshu Narwal")
+    st.sidebar.markdown("Akshay Singh")
     #st.sidebar.markdown('[LinkedIn](https://www.linkedin.com/in/mrinabdey/) [Github](https://github.com/mrinabdey)', unsafe_allow_html=True)
     #st.sidebar.markdown("Pankaj Kumar Sah")
     #st.sidebar.markdown('[LinkedIn](https://www.linkedin.com/in/pankaj-sah-b7aa39186/) [Github](https://github.com/52punk)', unsafe_allow_html=True)
@@ -238,7 +241,7 @@ def plot_raw_data(data):
     	
 
 def landing_ui():
-    st.header("Welcome to Stock Price Predictor")
+    st.header("Welcome to Institutional Market Analysis In Stock")
     st.write("")
     st.write("")
     st.write("Welcome to this site")
@@ -251,7 +254,7 @@ def landing_ui():
 
 if __name__ == "__main__":
     
-    st.sidebar.subheader("Stock Market Predictor")
+    st.sidebar.subheader("Institutional Market Analysis In Stock")
     st.sidebar.markdown("---")
     temp, check, name, model=choose_dataset(stocks, stocks_data, allmodels)
     #about_section()
