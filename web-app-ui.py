@@ -51,7 +51,7 @@ def choose_dataset(stocks, stocks_data, allmodels):
 
 def about_section():
     st.sidebar.subheader('Made By:')
-    st.sidebar.markdown("Anand Ghalot")
+    st.sidebar.markdown("Anand Ghatol")
     st.sidebar.markdown("Samyak Ajmera")
     st.sidebar.markdown("Himanshu Narwal")
     st.sidebar.markdown("Akshay Singh")
