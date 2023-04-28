@@ -1,12 +1,9 @@
-# Stock_Price_Prediction
+# Institutional market analysis in stock
 
 Click [here](https://share.streamlit.io/52punk/stock_price_prediction/main/web-app-ui.py) and check the trends of stocks 😄
 
 
-## Contributors
 
-- [Mrinab Dey](https://github.com/mrinab/)
-- [Pankaj Kumar Sah](https://github.com/52punk/)
 
 ## Run this locally
 
